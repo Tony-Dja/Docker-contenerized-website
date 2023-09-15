@@ -8,8 +8,17 @@
 Site Web
 ----------------------
 
-Conteneurisation d'un site web avec Docker + NGINX
+Conteneurisation d'un site web avec Docker + NGINX <br />
+Automatisation GitHub Actions => Build & Push sur Dockerhub <br />
+Image Docker : <br />
+https://hub.docker.com/repository/docker/tonydja/static-website/general
 
+Le conteneur Docker embarque un serveur web NGINX. Il est exposé sur son port 80.
+
+Les fichiers du site web sont copiés directement dans le conteneur, à la racine du dossier HTML du serveur web.<br />
+Dans le Dockerfile => COPY . /var/www/html/
+
+Vous pouvez remplacer ces fichiers par ceux de votre site web.
 
 Template
 ----------------------
