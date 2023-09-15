@@ -15,18 +15,18 @@ Le site est basé sur un template Dimension en HTML 5 UP => https://html5up.net/
 Builder l'image
 ----------------------
 
-docker build -t webapp:v1 .
+docker build -t webapp:v1 .<br />
 docker images
 
 
 Lancemant du conteneur NGINX
 ----------------------
 
-docker run --name webapp -d -p 80:80 webapp:v1
+docker run --name webapp -d -p 80:80 webapp:v1<br />
 docker ps
 
-Se connecter sur le conteneur webapp
-docker exec -ti webapp /bin/bash
+Se connecter sur le conteneur "webapp"<br />
+docker exec -ti webapp /bin/bash<br />
 cd /var/www/html
 
 
