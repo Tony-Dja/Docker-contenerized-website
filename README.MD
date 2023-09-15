@@ -1,14 +1,14 @@
 <div align="center">
 
-![Docker Build](https://img.shields.io/badge/docker-build-green)    ![Docker Automated](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)   ![example workflow](https://github.com/Tony-Dja/Udagram-microservices-k8s/actions/workflows/github-ci.yml/badge.svg) <br /><br />
+![Docker Build](https://img.shields.io/badge/docker-build-green)    ![Docker Automated](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)   ![example workflow](https://github.com/Tony-Dja/Docker-static-website/actions/workflows/github-ci.yml/badge.svg) <br /><br />
 ![Static Badge](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)     ![Static Badge](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)     ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)     ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-   
+
 </div>
 
 Site Web
 ----------------------
 
-Conteneurisation d'un site web statique avec Docker + NGINX
+Conteneurisation d'un site web avec Docker + NGINX
 
 
 Template
