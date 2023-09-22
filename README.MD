@@ -40,7 +40,7 @@ docker run --name webapp -d -p 80:80 webapp:v1<br />
 docker ps
 
 Se connecter sur le conteneur "webapp"<br />
-docker exec -ti webapp /bin/bash<br />
+docker exec -it webapp /bin/bash<br />
 cd /var/www/html
 
 
