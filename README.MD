@@ -36,7 +36,7 @@ Pipeline CI/CD
 ----------------------
 
 Nous utiliserons les GitHub Actions pour effectuer la livraison continue de notre image Docker.
-Pour chaque modification du site envoyé sur le Repository, action "PUSH", une nouvelle version de l'image sera builder automatiquement et stocker sur DockerHub
+Pour chaque modification du site envoyée sur le Repository, action "PUSH", une nouvelle version de l'image sera builder automatiquement et stocker sur DockerHub
 
 ```
 # CI/CD Docker Website => Build & Push to DockerHub
