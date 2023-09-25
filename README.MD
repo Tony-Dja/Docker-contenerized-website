@@ -9,9 +9,7 @@ Site Web
 ----------------------
 
 Conteneurisation d'un site web avec Docker + NGINX <br />
-Automatisation GitHub Actions => Build & Push sur Dockerhub <br />
-Image Docker : <br />
-https://hub.docker.com/repository/docker/tonydja/static-website/general
+Automatisation GitHub Actions => Build & Push sur Dockerhub <br /><br />
 
 Le conteneur Docker embarque un serveur web NGINX. Il est exposé sur son port 80.
 
@@ -24,6 +22,21 @@ Template
 ----------------------
 
 Le site est basé sur un template Dimension en HTML 5 UP => https://html5up.net/
+
+Pipeline CI/CD
+----------------------
+
+Nous utiliserons les GitHub Actions pour effectuer la livraison continue de notre image Docker.
+Pour chaque modification du site envoyé sur le Repository, action "PUSH", une nouvelle version de l'image sera builder automatiquement et stocker sur DockerHub
+
+![Screen](https://github.com/Tony-Dja/Docker-contenerized-website/blob/6844912bdbc3d61d07958bac0c192fb337e61800/screenshots/build.png)
+
+
+Image Docker : <br />
+https://hub.docker.com/repository/docker/tonydja/static-website/general
+
+
+![Screen](https://github.com/Tony-Dja/Docker-contenerized-website/blob/6844912bdbc3d61d07958bac0c192fb337e61800/screenshots/image-docker.png)
 
 
 Builder l'image
@@ -50,4 +63,4 @@ Afficher le site web
 http://localhost
 
 
-
+![Screen](https://github.com/Tony-Dja/Docker-contenerized-website/blob/6844912bdbc3d61d07958bac0c192fb337e61800/screenshots/website.png)
