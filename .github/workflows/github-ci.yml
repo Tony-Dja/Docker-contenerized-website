@@ -1,4 +1,4 @@
-# CI/CD UDAGRAM => Build & Push to DockerHub
+# CI/CD Docker Website => Build & Push to DockerHub
 
 name: Web site > Build & Push
 # Trigger
