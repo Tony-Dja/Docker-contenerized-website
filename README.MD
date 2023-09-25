@@ -3,8 +3,6 @@
 ![Docker Build](https://img.shields.io/badge/docker-build-green)    ![Docker Automated](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg)   ![example workflow](https://github.com/Tony-Dja/Docker-static-website/actions/workflows/github-ci.yml/badge.svg) <br /><br />
 ![Static Badge](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)     ![Static Badge](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)     ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)     ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
-![Screen](https://github.com/Tony-Dja/Docker-contenerized-website/blob/4ed25e9c079d1e200becd87664d73295129705c4/screenshots/build-push.png)
-
 </div>
 
 Site Web
@@ -12,7 +10,13 @@ Site Web
 
 Conteneurisation d'un site web avec Docker + NGINX <br />
 
-<strong>Automatisation GitHub Actions</strong> => Build & Push sur Dockerhub <br /><br />
+<strong>Automatisation GitHub Actions</strong> => Build & Push sur Dockerhub <br />
+
+<div align="center">
+
+![Screen](https://github.com/Tony-Dja/Docker-contenerized-website/blob/4ed25e9c079d1e200becd87664d73295129705c4/screenshots/build-push.png)
+
+</div>
 
 Le conteneur Docker embarque un serveur web NGINX. Il est exposé sur son port 80.
 
@@ -76,8 +80,11 @@ jobs:
 Image Docker : <br />
 https://hub.docker.com/repository/docker/tonydja/static-website/general
 
+<div align="center">
 
 ![Screen](https://github.com/Tony-Dja/Docker-contenerized-website/blob/6844912bdbc3d61d07958bac0c192fb337e61800/screenshots/image-docker.png)
+
+</div>
 
 
 Builder l'image
