@@ -117,4 +117,4 @@ Afficher le site web
 http://localhost
 
 
-![Screen](https://github.com/Tony-Dja/Docker-contenerized-website/blob/6844912bdbc3d61d07958bac0c192fb337e61800/screenshots/website.png)
+![Screen](https://github.com/Tony-Dja/Docker-contenerized-website/blob/6a419e725c7aec615cbaeca6213b02b641ced525/screenshots/website.png)
