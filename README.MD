@@ -23,7 +23,7 @@ Le conteneur Docker embarque un serveur web NGINX. Il est exposé sur son port 8
 Les fichiers du site web sont copiés directement dans le conteneur, à la racine du dossier HTML du serveur web.<br />
 Dans le Dockerfile => COPY . /var/www/html/
 
-Vous pouvez remplacer ces fichiers par ceux de votre site web.
+Vous pouvez remplacer ces fichiers par ceux de votre propre site web.
 
 
 Template
@@ -99,7 +99,7 @@ Lancemant du conteneur NGINX
 ----------------------
 
 ```
-docker run --name webapp -d -p 80:80 webapp:v1
+docker run --name webapp -d -p 8080:80 webapp:v1
 docker ps
 ```
 
@@ -110,11 +110,20 @@ docker exec -it webapp /bin/bash
 cd /var/www/html
 ```
 
+Docker compose
+----------------------
+
+L'image Docker étant déjà existante sur mon Registry DockerHub, si vous le souhaitez, vous pouvez déployer directement sans passer par le Build et le Run, en utilisant le fichier docker-compose.yml<br />
+
+```
+docker compose up
+```
+
 
 Afficher le site web
 ----------------------
 
-http://localhost
+http://localhost:8080
 
 
 ![Screen](https://github.com/Tony-Dja/Docker-contenerized-website/blob/6a419e725c7aec615cbaeca6213b02b641ced525/screenshots/website.png)
