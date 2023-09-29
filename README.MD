@@ -116,7 +116,7 @@ Docker compose
 L'image Docker étant déjà existante sur mon Registry DockerHub, si vous le souhaitez, vous pouvez déployer directement sans passer par le Build et le Run, en utilisant le fichier docker-compose.yml<br />
 
 ```
-docker compose up
+docker compose up -d
 ```
 
 
