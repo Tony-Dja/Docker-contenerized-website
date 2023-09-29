@@ -1,0 +1,7 @@
+version: '3.1'
+services:
+  website:
+    container_name: webapp
+    image: tonydja/static-website
+    ports:
+      - 8080:80
